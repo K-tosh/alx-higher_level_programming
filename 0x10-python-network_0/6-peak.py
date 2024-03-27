@@ -3,7 +3,18 @@
 
 
 def find_peak(list_of_integers):
-    """Finds a peak in list_of_integers"""
+    """Finds a peak in list_of_integers
+    
+    This function takes a list of integers as input and returns a peak element
+    in the list, or None if the input list is empty or invalid.
+
+    Args:
+        list_of_integers (list): A list of integers.
+
+    Returns:
+        int or None: A peak element in the input list, or None if the input list
+        is empty or invalid.
+    """
 
     if list_of_integers is None or list_of_integers == []:
         return None
